@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//Ao aplicar um reset CSS, você remove esses estilos padrão, garantindo que todos os navegadores comecem com a mesma base de estilos. Isso facilita a criação de um design consistente em todas as plataformas.
+
+h1{
+    background-color: greenyellow;
+    border: solid black 4px;
+    //solid é o tipo da borda, cor da borda, espessura da borda
+    margin: 10px 40px 50px 0px;// Podemos dividir o margin em 4 valores:
+    // 10px parte de cima, 40px direita, 50px parte de baixo, 0px esquerda
+    // margin-top | margin-right | margin-bottom | margin-left
+    padding: 20px;// quando aplicamos apenas apenas 1 valor ele irá dar esse espaçamento nos quatro lados //
+}
+
+
+.caixa1{
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.caixa2{
+    background-color: darkslateblue;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.site{
+    background-color: red;
+    height: 400px;
+    width: 500px;
+    display: inline-block
+}
